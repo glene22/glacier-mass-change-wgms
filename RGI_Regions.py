@@ -1,10 +1,18 @@
-# rgi_regions.py
 """
-RGI Region bounding boxes (simplified lat/lon extents).
+RGI region bounding boxes
+------------------------------------------
+Author: Emily Glen
+Date: 2025-08-16
+------------------------------------------
+-  (coarse lat/lon extents) for quick subsetting/plots.
+- Region names follow the first-order Randolph Glacier Inventory (RGI) scheme.
+- Boxes are **approximate**, not official polygons—use RGI region shapefiles for precise masks.
+- Coordinates in degrees; longitude in [-180, 180].
 
-Format:
-region_name: [lat_min, lat_max, lon_min, lon_max]
+Format: region_name: [lat_min, lat_max, lon_min, lon_max]
 """
+
+# ========= Regions =========
 
 RGI_REGIONS = {
     "Alaska": [50, 72, -170, -130],
