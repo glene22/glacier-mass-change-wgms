@@ -3,6 +3,7 @@ Glacier Mass Change Anomaly Mapping
 -----------------------------------
 Author: Emily Glen
 Date: 2025-08-15
+------------------------------------------
 
 Description:
     This script loads annual global glacier mass change data from a NetCDF file,
@@ -53,7 +54,7 @@ import cartopy.feature as cfeature
 
 from RGI_Regions import RGI_REGIONS  # script with bounding boxes of RGI regions
 
-# ========= User settings (defaults) =========
+# ========= User settings =========
 NcFile = "data/wgms-amce-2025-02b/global-gridded/global-gridded-annual-glacier-mass-change.nc4"
 Outdir = "figures"
 Region = "Greenland"

@@ -3,6 +3,7 @@ Global Glacier Mass Change Tables
 ------------------------------------------
 Author: Emily Glen
 Date: 2025-08-16
+------------------------------------------
 
 Description:
     This script processes the WGMS global gridded annual glacier 
