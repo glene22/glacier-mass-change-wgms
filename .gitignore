@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Envs / OS cruft
+.venv/
+venv/
+env/
+.DS_Store
+.ipynb_checkpoints/
+
+# Project data/outputs (generated)
+data/
+figures/
